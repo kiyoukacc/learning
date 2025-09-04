@@ -15,11 +15,11 @@ export default function Dashboard({ auth, karyawans = [] }) {
 
         post(route("karyawan.store"), {
             onSuccess: () => {
-                alert("Karyawan berhasil ditambahkan!");
+                alert("Yey Berhasil!");
                 reset();
             },
             onError: () => {
-                alert("Gagal menambahkan karyawan!");
+                alert("Hey gagal tambahin!");
             },
         });
     };
